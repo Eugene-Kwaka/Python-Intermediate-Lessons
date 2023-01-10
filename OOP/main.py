@@ -68,7 +68,7 @@ item2 = Item("Laptop", 1000, 10, )
 
 
 ############################################ USING A CLASS ATTRIBUTE #######################################################
-# A class attribute is a class that is shared between all instances of a class. In this case, I apply a "discount"
+# A class attribute is an attrubute that is shared between all instances of a class. In this case, I apply a "discount"
 class Item:
     pay_rate = 0.8 # Pay rate after  20% discount
     
@@ -109,10 +109,10 @@ item2.pay_rate = 0.7
 print(item2.specific_item_discount()) # -> 700
 
 # Accessing class variable from class level
-# print(Item.pay_rate)
+print(Item.pay_rate)
 # Accessing class variable from instance level
-# print(item1.pay_rate)
+print(item1.pay_rate)
 
 # To check for the attributes that are accessible to a class or a particular instance. In our case for example:
-# print(Item.__dict__) # will display all attributes accessible by the class Item
-# print(item1.__dict__) # will display all attributes accessible by the item1 instance
+print(Item.__dict__) # will display all attributes accessible by the class Item
+print(item1.__dict__) # will display all attributes accessible by the item1 instance
