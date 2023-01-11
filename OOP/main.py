@@ -116,3 +116,18 @@ print(item1.pay_rate)
 # To check for the attributes that are accessible to a class or a particular instance. In our case for example:
 print(Item.__dict__) # will display all attributes accessible by the class Item
 print(item1.__dict__) # will display all attributes accessible by the item1 instance
+
+################################################# ANOTHER EXAMPLE ###########################################################
+class MyFirstClass:
+    print("Who wrote this?")
+    index = "Author-Book"
+    
+    # The class method hand_list takes in the arguments self, philosopher and book
+    def hand_list(self, philosopher, book):
+        # print the class variable
+        print(MyFirstClass.index)
+        print(philosopher + " wrote the book: " + book)
+        
+whodunnit = MyFirstClass()
+print(whodunnit.hand_list("Plato", "Republic"))
+    
