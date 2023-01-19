@@ -1,11 +1,11 @@
-# def get_squared_numbers(numbers):
-#     squared_numbers = []
-#     for n in numbers:
-#         squared_numbers.append(n*n)
-#     return squared_numbers
+def get_squared_numbers(numbers):
+    squared_numbers = []
+    for n in numbers:
+        squared_numbers.append(n*n)
+    return squared_numbers
 
-# numbers = [2,4,6,8]
-# print(get_squared_numbers(numbers))
+numbers = [2,4,6,8]
+print(get_squared_numbers(numbers))
 
 
 # Search for duplicate numbers
