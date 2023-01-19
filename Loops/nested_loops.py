@@ -1,9 +1,9 @@
-# # Outer Loop
-# for i in range(10):
-#     # inner loop
-#     for j in range(10):
-#         print(0, end=" ")
-#     print()
+# Outer Loop
+for i in range(10):
+    # inner loop
+    for j in range(10):
+        print(0, end=" ")
+    print()
     
 # For ever iteration of the outer loop, the inner loop will be executed 10 times(range).
 # This will print a 2D array of 0s since the outer loop was executed 10 times while the inner loop was executed 10 inside it. 
