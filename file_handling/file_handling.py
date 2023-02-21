@@ -5,6 +5,6 @@ print(data)
 file.close()
 
 ### A better recommended way is to use "with"
-with open('testing.txt', 'r') as file:
+with open(r"C:\Users\Eugene Kwaka\Desktop\PYTHON-INTERMEDIATE-TUTORIALS\file_handling\testing.txt", 'r') as file:
     my_file = file.readline()
     print(my_file)
